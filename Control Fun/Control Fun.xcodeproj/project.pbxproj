@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CFA7AAB1561D6DA0090DDCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CFA7AAA1561D6DA0090DDCD /* UIKit.framework */; };
+		7CFA7AAD1561D6DA0090DDCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CFA7AAC1561D6DA0090DDCD /* Foundation.framework */; };
+		7CFA7AAF1561D6DA0090DDCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CFA7AAE1561D6DA0090DDCD /* CoreGraphics.framework */; };
+		7CFA7AB51561D6DA0090DDCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA7AB31561D6DA0090DDCD /* InfoPlist.strings */; };
+		7CFA7AB71561D6DA0090DDCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA7AB61561D6DA0090DDCD /* main.m */; };
+		7CFA7ABB1561D6DA0090DDCD /* Control_FunAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA7ABA1561D6DA0090DDCD /* Control_FunAppDelegate.m */; };
+		7CFA7ABE1561D6DA0090DDCD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA7ABC1561D6DA0090DDCD /* MainWindow.xib */; };
+		7CFA7AC11561D6DA0090DDCD /* Control_FunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA7AC01561D6DA0090DDCD /* Control_FunViewController.m */; };
+		7CFA7AC41561D6DA0090DDCD /* Control_FunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA7AC21561D6DA0090DDCD /* Control_FunViewController.xib */; };
+		7CFA7ACC1561D6DB0090DDCD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CFA7ACB1561D6DB0090DDCD /* SenTestingKit.framework */; };
+		7CFA7ACD1561D6DB0090DDCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CFA7AAA1561D6DA0090DDCD /* UIKit.framework */; };
+		7CFA7ACE1561D6DB0090DDCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CFA7AAC1561D6DA0090DDCD /* Foundation.framework */; };
+		7CFA7ACF1561D6DB0090DDCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CFA7AAE1561D6DA0090DDCD /* CoreGraphics.framework */; };
+		7CFA7AD71561D6DB0090DDCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA7AD51561D6DB0090DDCD /* InfoPlist.strings */; };
+		7CFA7AD91561D6DB0090DDCD /* Control_FunTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA7AD81561D6DB0090DDCD /* Control_FunTests.h */; };
+		7CFA7ADB1561D6DB0090DDCD /* Control_FunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA7ADA1561D6DB0090DDCD /* Control_FunTests.m */; };
+		7CFA83581561D9780090DDCD /* e5a4_bazinga_hoodie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA83571561D9780090DDCD /* e5a4_bazinga_hoodie.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CFA7AD01561D6DB0090DDCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CFA7A9D1561D6DA0090DDCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CFA7AA51561D6DA0090DDCD;
+			remoteInfo = "Control Fun";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CFA7AA61561D6DA0090DDCD /* Control Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Control Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFA7AAA1561D6DA0090DDCD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7CFA7AAC1561D6DA0090DDCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7CFA7AAE1561D6DA0090DDCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7CFA7AB21561D6DA0090DDCD /* Control Fun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Control Fun-Info.plist"; sourceTree = "<group>"; };
+		7CFA7AB41561D6DA0090DDCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7CFA7AB61561D6DA0090DDCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CFA7AB81561D6DA0090DDCD /* Control Fun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Control Fun-Prefix.pch"; sourceTree = "<group>"; };
+		7CFA7AB91561D6DA0090DDCD /* Control_FunAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Control_FunAppDelegate.h; sourceTree = "<group>"; };
+		7CFA7ABA1561D6DA0090DDCD /* Control_FunAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Control_FunAppDelegate.m; sourceTree = "<group>"; };
+		7CFA7ABD1561D6DA0090DDCD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		7CFA7ABF1561D6DA0090DDCD /* Control_FunViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Control_FunViewController.h; sourceTree = "<group>"; };
+		7CFA7AC01561D6DA0090DDCD /* Control_FunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Control_FunViewController.m; sourceTree = "<group>"; };
+		7CFA7AC31561D6DA0090DDCD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Control_FunViewController.xib; sourceTree = "<group>"; };
+		7CFA7ACA1561D6DB0090DDCD /* Control FunTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Control FunTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFA7ACB1561D6DB0090DDCD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7CFA7AD41561D6DB0090DDCD /* Control FunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Control FunTests-Info.plist"; sourceTree = "<group>"; };
+		7CFA7AD61561D6DB0090DDCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7CFA7AD81561D6DB0090DDCD /* Control_FunTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Control_FunTests.h; sourceTree = "<group>"; };
+		7CFA7ADA1561D6DB0090DDCD /* Control_FunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Control_FunTests.m; sourceTree = "<group>"; };
+		7CFA83571561D9780090DDCD /* e5a4_bazinga_hoodie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = e5a4_bazinga_hoodie.jpg; path = ../../../../../Pictures/e5a4_bazinga_hoodie.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CFA7AA31561D6DA0090DDCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFA7AAB1561D6DA0090DDCD /* UIKit.framework in Frameworks */,
+				7CFA7AAD1561D6DA0090DDCD /* Foundation.framework in Frameworks */,
+				7CFA7AAF1561D6DA0090DDCD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFA7AC61561D6DB0090DDCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFA7ACC1561D6DB0090DDCD /* SenTestingKit.framework in Frameworks */,
+				7CFA7ACD1561D6DB0090DDCD /* UIKit.framework in Frameworks */,
+				7CFA7ACE1561D6DB0090DDCD /* Foundation.framework in Frameworks */,
+				7CFA7ACF1561D6DB0090DDCD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CFA7A9B1561D6DA0090DDCD = {
+			isa = PBXGroup;
+			children = (
+				7CFA7AB01561D6DA0090DDCD /* Control Fun */,
+				7CFA7AD21561D6DB0090DDCD /* Control FunTests */,
+				7CFA7AA91561D6DA0090DDCD /* Frameworks */,
+				7CFA7AA71561D6DA0090DDCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CFA7AA71561D6DA0090DDCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA7AA61561D6DA0090DDCD /* Control Fun.app */,
+				7CFA7ACA1561D6DB0090DDCD /* Control FunTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CFA7AA91561D6DA0090DDCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA7AAA1561D6DA0090DDCD /* UIKit.framework */,
+				7CFA7AAC1561D6DA0090DDCD /* Foundation.framework */,
+				7CFA7AAE1561D6DA0090DDCD /* CoreGraphics.framework */,
+				7CFA7ACB1561D6DB0090DDCD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CFA7AB01561D6DA0090DDCD /* Control Fun */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA7AE51561D8450090DDCD /* Resources */,
+				7CFA7AB91561D6DA0090DDCD /* Control_FunAppDelegate.h */,
+				7CFA7ABA1561D6DA0090DDCD /* Control_FunAppDelegate.m */,
+				7CFA7ABC1561D6DA0090DDCD /* MainWindow.xib */,
+				7CFA7ABF1561D6DA0090DDCD /* Control_FunViewController.h */,
+				7CFA7AC01561D6DA0090DDCD /* Control_FunViewController.m */,
+				7CFA7AC21561D6DA0090DDCD /* Control_FunViewController.xib */,
+				7CFA7AB11561D6DA0090DDCD /* Supporting Files */,
+			);
+			path = "Control Fun";
+			sourceTree = "<group>";
+		};
+		7CFA7AB11561D6DA0090DDCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA7AB21561D6DA0090DDCD /* Control Fun-Info.plist */,
+				7CFA7AB31561D6DA0090DDCD /* InfoPlist.strings */,
+				7CFA7AB61561D6DA0090DDCD /* main.m */,
+				7CFA7AB81561D6DA0090DDCD /* Control Fun-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CFA7AD21561D6DB0090DDCD /* Control FunTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA7AD81561D6DB0090DDCD /* Control_FunTests.h */,
+				7CFA7ADA1561D6DB0090DDCD /* Control_FunTests.m */,
+				7CFA7AD31561D6DB0090DDCD /* Supporting Files */,
+			);
+			path = "Control FunTests";
+			sourceTree = "<group>";
+		};
+		7CFA7AD31561D6DB0090DDCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA7AD41561D6DB0090DDCD /* Control FunTests-Info.plist */,
+				7CFA7AD51561D6DB0090DDCD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CFA7AE51561D8450090DDCD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA83571561D9780090DDCD /* e5a4_bazinga_hoodie.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CFA7AA51561D6DA0090DDCD /* Control Fun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CFA7ADE1561D6DB0090DDCD /* Build configuration list for PBXNativeTarget "Control Fun" */;
+			buildPhases = (
+				7CFA7AA21561D6DA0090DDCD /* Sources */,
+				7CFA7AA31561D6DA0090DDCD /* Frameworks */,
+				7CFA7AA41561D6DA0090DDCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Control Fun";
+			productName = "Control Fun";
+			productReference = 7CFA7AA61561D6DA0090DDCD /* Control Fun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CFA7AC91561D6DB0090DDCD /* Control FunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CFA7AE11561D6DB0090DDCD /* Build configuration list for PBXNativeTarget "Control FunTests" */;
+			buildPhases = (
+				7CFA7AC51561D6DB0090DDCD /* Sources */,
+				7CFA7AC61561D6DB0090DDCD /* Frameworks */,
+				7CFA7AC71561D6DB0090DDCD /* Resources */,
+				7CFA7AC81561D6DB0090DDCD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CFA7AD11561D6DB0090DDCD /* PBXTargetDependency */,
+			);
+			name = "Control FunTests";
+			productName = "Control FunTests";
+			productReference = 7CFA7ACA1561D6DB0090DDCD /* Control FunTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CFA7A9D1561D6DA0090DDCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7CFA7AA01561D6DA0090DDCD /* Build configuration list for PBXProject "Control Fun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7CFA7A9B1561D6DA0090DDCD;
+			productRefGroup = 7CFA7AA71561D6DA0090DDCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CFA7AA51561D6DA0090DDCD /* Control Fun */,
+				7CFA7AC91561D6DB0090DDCD /* Control FunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CFA7AA41561D6DA0090DDCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFA7AB51561D6DA0090DDCD /* InfoPlist.strings in Resources */,
+				7CFA7ABE1561D6DA0090DDCD /* MainWindow.xib in Resources */,
+				7CFA7AC41561D6DA0090DDCD /* Control_FunViewController.xib in Resources */,
+				7CFA83581561D9780090DDCD /* e5a4_bazinga_hoodie.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFA7AC71561D6DB0090DDCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFA7AD71561D6DB0090DDCD /* InfoPlist.strings in Resources */,
+				7CFA7AD91561D6DB0090DDCD /* Control_FunTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7CFA7AC81561D6DB0090DDCD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CFA7AA21561D6DA0090DDCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFA7AB71561D6DA0090DDCD /* main.m in Sources */,
+				7CFA7ABB1561D6DA0090DDCD /* Control_FunAppDelegate.m in Sources */,
+				7CFA7AC11561D6DA0090DDCD /* Control_FunViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFA7AC51561D6DB0090DDCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFA7ADB1561D6DB0090DDCD /* Control_FunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CFA7AD11561D6DB0090DDCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CFA7AA51561D6DA0090DDCD /* Control Fun */;
+			targetProxy = 7CFA7AD01561D6DB0090DDCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CFA7AB31561D6DA0090DDCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CFA7AB41561D6DA0090DDCD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7CFA7ABC1561D6DA0090DDCD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CFA7ABD1561D6DA0090DDCD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		7CFA7AC21561D6DA0090DDCD /* Control_FunViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CFA7AC31561D6DA0090DDCD /* en */,
+			);
+			name = Control_FunViewController.xib;
+			sourceTree = "<group>";
+		};
+		7CFA7AD51561D6DB0090DDCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CFA7AD61561D6DB0090DDCD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CFA7ADC1561D6DB0090DDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7CFA7ADD1561D6DB0090DDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CFA7ADF1561D6DB0090DDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Control Fun/Control Fun-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Control Fun/Control Fun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7CFA7AE01561D6DB0090DDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Control Fun/Control Fun-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Control Fun/Control Fun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7CFA7AE21561D6DB0090DDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Control Fun.app/Control Fun";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Control Fun/Control Fun-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Control FunTests/Control FunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7CFA7AE31561D6DB0090DDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Control Fun.app/Control Fun";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Control Fun/Control Fun-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Control FunTests/Control FunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CFA7AA01561D6DA0090DDCD /* Build configuration list for PBXProject "Control Fun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFA7ADC1561D6DB0090DDCD /* Debug */,
+				7CFA7ADD1561D6DB0090DDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CFA7ADE1561D6DB0090DDCD /* Build configuration list for PBXNativeTarget "Control Fun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFA7ADF1561D6DB0090DDCD /* Debug */,
+				7CFA7AE01561D6DB0090DDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CFA7AE11561D6DB0090DDCD /* Build configuration list for PBXNativeTarget "Control FunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFA7AE21561D6DB0090DDCD /* Debug */,
+				7CFA7AE31561D6DB0090DDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CFA7A9D1561D6DA0090DDCD /* Project object */;
+}
